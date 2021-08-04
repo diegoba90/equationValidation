@@ -29,7 +29,7 @@ int main()
 	int xValue, yValue;
 
 	//open the file
-	myInputFile.open("pairs.txt");
+	myInputFile.open("equationValidation_Pairs_File.txt");
 
 	//using a while loop to assign values to x and y
 	while (myInputFile >> xValue >> yValue)
